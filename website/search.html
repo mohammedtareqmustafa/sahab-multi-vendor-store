@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://www.accord.ps/Modules/Website/Resources/assets/images/accord-favicon.png">
+    <title>اكورد | البحث</title>
+</head>
+<body dir="rtl">
+
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">تسجيل الدخول</button>
+                <button type="button" class="btn btn-primary">تسجيل</button>
+            </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    
+    <div class="line mb-1"></div>
+    
+    <div class="container" dir="ltr">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a href="" class="text-secondary nav-link text-center position-relative">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <p>تسجيل الدخول</p>
+                    </a>
+                    <a href="" class="text-secondary nav-link text-center position-relative" >
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <p>سلة المشتريات</p>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">50</span>
+                    </a>
+                    <a href="" class="text-secondary nav-link text-center position-relative">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        <p>المفضلة</p>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">50</span>
+                    </a>
+                    <a href="" class="text-secondary nav-link text-center position-relative" >
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <p>البحث</p>
+                    </a>
+                    <a href="" class="nav-link position-relative">
+                        <p class="bg-success p-2 text-white rounded ">تسجيل كامورد <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </p>
+                    </a>
+                    <!-- Default dropstart button -->
+                    <div class="btn-group dropstart">
+                        <button type="button" class="bg-white border-0 fs-5 dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                            التصنيفات
+                        </button>
+                        <div class="dropdown-menu list-unstyled p-2 ">
+                            
+                            <ul class="list-unstyled p-0 d-flex">
+                                <li><a class="alo dropdown-item fs-5  text-dark" href="#">akl</a></li>
+                                <li><a class="dropdown-item " href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                            </ul>
+                            <ul class="list-unstyled p-0 d-flex">
+                                <li><a class="dropdown-item fs-5 text-dark" href="#">3ser</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                            </ul>
+                            <ul class="list-unstyled p-0 d-flex">
+                                <li><a class="dropdown-item fs-5 text-dark" href="#">l3b</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                                <li><a class="dropdown-item" href="#">000000</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    </div>
+                    
+                </div>
+                <img src="https://accord.ps/Modules/Website/Resources/assets/images/rasel-logo.png" alt="" width="170px" height="50px">
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid bg-primary pt-3">
+        <div class="input-group">
+            <div class="container">
+                <div class="input-group mb-3">
+                    <label for="123" class="input-group-text bg-white border-0 rounded-0"  id="basic-addon1"><i class="fa fa-search  p-2 fs-5 " aria-hidden="true" aria-disabled=""></i></label>
+                    <input type="search" class="form-control border-0 rounded-0" placeholder="البحث" id="123" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="items">
+            <div class="item d-flex overflow-auto">
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c0.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c1.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c2.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c3.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c4.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c5.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c6.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c7.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c8.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c9.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c10.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c11.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c12.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c13.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c14.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c15.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories/c16.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+                <div>
+                    <img src="https://accord.ps/Modules/Website/Resources/assets/images/categories.png"
+                    alt="" width="70px" height="70px">
+                    <p>الاثاث المنزلي</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3 ">
+        <img class="w-100" src="https://accord.ps/Modules/Website/Resources/assets/images/adv-search1.jpg" alt="">
+    </div>
+
+    <div class="container mt-3 ">
+        <div class="row">
+            <div class="col-md-9 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mb-2">
+                            <div class="dropdown ">
+                                <button class="btn btn-light border dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    الترتيب حسب
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item active" href="#">الأقل سعراً</a></li>
+                                    <li><a class="dropdown-item" href="#">الأعلى سعراً</a></li>
+                                    <li><a class="dropdown-item" href="#">الأكثر خصومات</a></li>
+                                    <li><a class="dropdown-item" href="#">الأحدث</a>
+                                    <li><a class="dropdown-item" href="#">الأقدم</a></li>
+                                </ul>
+                                <span class="float-start fs-4">2000صنف</س>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-8 ">
+                            <form>
+                                <div class="row">
+                                    <div class="col-5">
+                                        <input type="number" class="form-control" placeholder="الأقل سعرا">
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="fs-4">الى</div>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="number" class="form-control" placeholder="الأعلى سعرا">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="..." >
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">صالة اللوتس( صالة اللوتس للأفراح )</h5>
+                                <p class="card-text">من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة</p>
+                                <p >₪4605</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined1" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined1"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">باقة - 5 خدمات( كوافير جاردن هاوس )</h5>
+                                <p class="card-text">مكياج، تسريحة شعر، دهن جسم، مناكير، بدكير ومنكير</p>
+                                <p><del>₪376</del> %16.4 ₪450</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined2" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined2"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_8.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">مسكة عروس 55
+                                    ( فرح روز لمستلزمات الافراح )</h5>
+                                <p class="card-text">ورد فلين ،حجم كبير ،غير مرجع</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined3" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined3"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined4" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined4"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">باقة - 5 خدمات( كوافير جاردن هاوس )</h5>
+                                <p class="card-text">مكياج، تسريحة شعر، دهن جسم، مناكير، بدكير ومنكير</p>
+                                <p><del>₪376</del> %16.4 ₪450</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined2" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined2"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_8.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">مسكة عروس 55
+                                    ( فرح روز لمستلزمات الافراح )</h5>
+                                <p class="card-text">ورد فلين ،حجم كبير ،غير مرجع</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined3" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined3"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined4" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined4"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">باقة - 5 خدمات( كوافير جاردن هاوس )</h5>
+                                <p class="card-text">مكياج، تسريحة شعر، دهن جسم، مناكير، بدكير ومنكير</p>
+                                <p><del>₪376</del> %16.4 ₪450</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined2" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined2"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_8.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">مسكة عروس 55
+                                    ( فرح روز لمستلزمات الافراح )</h5>
+                                <p class="card-text">ورد فلين ،حجم كبير ،غير مرجع</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined3" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined3"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined4" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined4"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">باقة - 5 خدمات( كوافير جاردن هاوس )</h5>
+                                <p class="card-text">مكياج، تسريحة شعر، دهن جسم، مناكير، بدكير ومنكير</p>
+                                <p><del>₪376</del> %16.4 ₪450</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined2" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined2"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_8.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">مسكة عروس 55
+                                    ( فرح روز لمستلزمات الافراح )</h5>
+                                <p class="card-text">ورد فلين ،حجم كبير ،غير مرجع</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined3" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined3"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-100" src="https://accord.ps/Modules/Website/Resources/assets/images/adv-wedding.jpg" alt="">
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined4" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined4"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_6.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">باقة - 5 خدمات( كوافير جاردن هاوس )</h5>
+                                <p class="card-text">مكياج، تسريحة شعر، دهن جسم، مناكير، بدكير ومنكير</p>
+                                <p><del>₪376</del> %16.4 ₪450</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined2" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined2"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_8.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">مسكة عروس 55
+                                    ( فرح روز لمستلزمات الافراح )</h5>
+                                <p class="card-text">ورد فلين ،حجم كبير ،غير مرجع</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined3" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined3"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                <div class="card mt-3 p-3 position-relative">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p><del>₪80</del>%6.3 ₪75</p>
+                            </div>
+                        </div>
+                        <input type="checkbox" class="btn-check" name="options-outlined" id="danger-outlined4" autocomplete="off">
+                        <label class="btn btn-outline-danger position-absolute start-0 top-0 fs-5" style="width: 40px; border: none;" for="danger-outlined4"><i class="fa fa-heart" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                    <div class="float-start mt-2 "><p>تم عرض 50 صنف من 4264 صنف</p></div>
+                    <div dir="ltr" class="btn-toolbar mt-5 mb-5" role="toolbar" aria-label="Toolbar with button groups">
+                        
+                        <div class=" me-2 " role="group" aria-label="First group ">
+                            <button type="button" class="btn btn-outline-dark  "><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-outline-dark  ">1</button>
+                            <button type="button" class="btn btn-outline-dark ">2</button>
+                            <button type="button" class="btn btn-outline-dark ">3</button>
+                            <button type="button" class="btn btn-dark ">4</button>
+                        </div>
+                        <div class=" me-2" role="group" aria-label="Second group">
+                            <button type="button" class="btn btn-outline-dark ">5</button>
+                            <button type="button" class="btn bg-light">...</button>
+                            <button type="button" class="btn btn-outline-dark ">7</button>
+                        </div>
+                        <div class="" role="group" aria-label="Third group">
+                            <button type="button" class="btn btn-outline-dark ">8</button>
+                            <button type="button" class="btn btn-outline-dark  "><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                
+            </div>
+
+
+            <div class="col-md-3 bg-light">
+                <div class="card">
+                    <img src="/img/Screenshot_1.png" class="p-3 card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title ">طاولة وسط_20026</h5>
+                        <p><del>1800₪</del>1636₪</p>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                    <img src="/img/Screenshot_2.png" class="p-3 card-img-top" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title ">طاولة وسط - 20016</h6>
+                        <p>₪1400</p>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                    <img src="/img/Screenshot_3.png" class="p-3 card-img-top" alt="">
+                    <div class="card-body">
+                        <p>W-507</p>
+                        <h6 class="card-title ">( سنتر اجمل العرائس )</h6>
+                        <p><del>1800₪</del>1636₪</p>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                    <img src="/img/Screenshot_4.png" class="p-3 card-img-top" alt="">
+                    <div class="card-body">
+                        <p>فيديو سهرة الشباب</p>
+                        <h6 class="card-title ">( استوديو غرام )</h6>
+                        <p><del>1800₪</del>1636₪</p>
+                    </div>
+                </div>
+
+                <div class="mt-3" >
+                    <h4 class="text-center bg-secondary bg-gradient p-2">شركة آت هوم للأثاث العصري</h4>
+                </div>
+                <div class="card  p-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title"> <del>₪4200</del>₪3900 </p>
+                                <lix>غرفة نوم اسطنبول</lix>
+                                <lix>2010058</lix>
+                                <p>شركة أت هوم لاأثاث العصري</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  p-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ">
+                                <p class="card-title"> <del>₪4200</del>₪3900 </p>
+                                    <lix>غرفة نوم اسطنبول</lix>
+                                    <lixx>2010058</lixx>
+                                <p>شركة أت هوم لاأثاث العصري</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  p-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title"> <del>₪4200</del>₪3900 </p>
+                                <lix>غرفة نوم اسطنبول</lix>
+                                <lix>2010058</lix>
+                                <p>شركة أت هوم لاأثاث العصري</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  p-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="/img/Screenshot_5.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-title"> <del>₪4200</del>₪3900 </p>
+                                <lix>غرفة نوم اسطنبول</lix>
+                                <lix>2010058</lix>
+                                <p>شركة أت هوم لاأثاث العصري</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-100 mt-2" src="https://accord.ps/Modules/Website/Resources/assets/images/adv-callcenter.jpg?vid=2021120901" alt="">
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="">
+            <img class="w-100 mb-2" src="https://accord.ps/Modules/Website/Resources/assets/images/offers/call-center.jpg?vid=2021120901" alt="">
+        </div>
+    </div>
+    
+    <div class="line1 mb-4 mt-3 w-100"></div>
+    <footer >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-lg-4 mb-3 mt-3">
+                    <h5>للاتصال بنا </h5>
+                    <p>يسرنا تواصلك معنا من خلال أي من القنوات المتاحة.</p>
+                    <div class="d-flex">
+                        <div class="list-unstyled">
+                            <li>أرقام التواصل</li>
+                            <li>1700400600</li>
+                            <br>
+                            <li>العنوان</li>
+                            <li>فلسطين، غزة، مقابل البوابة</li>
+                            <li>الشمالية لجامعة الأزهر،</li>
+                            <li>مجمع الرؤيا التجاري</li>
+                        </div>
+                        <div class="list-unstyled">
+                            <li>البريد الإلكتروني</li>
+                            <li>info@accord.ps</li>
+                            <br>
+                            <li>ساعات العمل</li>
+                            <li>السبت - الخميس</li>
+                            <li>9:00 صباحاً - 3:30 مساءً</li>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4 col-lg-2 mb-3 mt-3 list-unstyled">
+                    <h5>المعلومات</h5>
+                    <li>من نحن؟</li>
+                    <li>سياسة الخصوصية</li>
+                    <li>للاتصال بنا</li>
+                    <li>الأسئلة الشائعة</li>
+                    <li>مورد جديد</li>
+                </div>
+                <div class="col-sm-4 col-lg-2 mb-3 mt-3 list-unstyled">
+                    <h5>الملف الشخصي</h5>
+                    <li>التسجيل</li>
+                    <li>تسجيل الدخول</li>
+                    <li>المفضلة</li>
+                    <li>سلة المشتريات</li>
+                    <li>البحث</li>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mt-3">
+                    <h5>قائمة الواتس أب</h5>
+                    <p>انضم إلى قائمة الواتس أب الخاصة بالمنصة للبقاء على إطلاع بأحدث الخصومات والعروض الخاصة.</p>
+                    <div>
+                        <input class="" type="number" placeholder="رقم الواتس اب...">
+                        <button>الاشتراك</button>
+                        <p>وسائل التواصل الإجتماعي</p>
+                        <a href="#"><i class="fa-brands fa-facebook fs-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fs-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

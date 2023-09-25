@@ -1,0 +1,85 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
+.line1{
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
+.container .links ul li{
+    margin: 0 12px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.img1{
+    cursor: pointer;
+}
+.nav-item{
+    list-style: none;
+}
+.ditals button{
+    height: 45px;
+    width: 160px;
+    padding: 10px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.row .par{
+    border: 1px solid gray;
+    border-top: 4px solid rgb(216 176 142);
+}
+.row .par2{
+    border: 1px solid gray;
+    border-top: 4px solid rgb(192 156 221);
+}
+.card{
+    cursor: pointer;
+}
+.card button{
+    width: 100%;
+    border: navajowhite;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+footer .container .row div li{
+    list-style: none;
+    
+}
+footer button{
+    border: none;
+    width: 90px;
+    padding: 5px;
+    height: 30px;
+    background-color: #7e57c6;
+    color: white;
+}
+.table tr td{
+    padding: 10px;
+    text-decoration: none;
+}
+.table tr td a{
+    text-decoration: none;
+    color: gray;
+}
+.nav-link{
+    margin: 10px;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

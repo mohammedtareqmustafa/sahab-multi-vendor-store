@@ -1,0 +1,5 @@
+.top{
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
